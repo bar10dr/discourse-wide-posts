@@ -3,6 +3,10 @@
         max-width: 90% !important;
     }
     
+    .container.posts {
+        grid-template-columns: auto 100px !important;
+    }
+    
     .topic-post:not(.d-toc-post) .topic-body {
         width: 90%;
     }
