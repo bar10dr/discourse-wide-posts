@@ -1,4 +1,8 @@
 @media screen and (min-width: $min_screen_width) {
+    #main-outlet .wrap {
+        max-width: 90%;
+    }
+    
     .topic-post:not(.d-toc-post) .topic-body {
         width: 90%;
     }
