@@ -1,6 +1,6 @@
 @media screen and (min-width: $min_screen_width) {
     #main-outlet .wrap {
-        max-width: 90%;
+        max-width: 90% !important;
     }
     
     .topic-post:not(.d-toc-post) .topic-body {
