@@ -1,23 +1,23 @@
 @media screen and (min-width: $min_screen_width) {
     .topic-post:not(.d-toc-post) .topic-body {
-        width: calc(#{$topic-body-width} + (#{$topic-body-width-padding} * 2) + #{$additional_post_width});
+        width: 90%;
     }
 
     .topic-status-info, .onscreen-post {
-        max-width: calc(758px + #{$additional_post_width});
+        max-width: 90%;
     }
 
     @if $increase_editor_width == 'true' {   
         #reply-control {
-            max-width: calc(1475px + (#{$additional_post_width} * 2));
+            max-width: 90%;
         }
 
         .composer-popup-container {
-            max-width: calc(1500px + (#{$additional_post_width} * 2));
+            max-width: 90%;
         }
 
         .composer-popup {
-            max-width: calc(724px + #{$additional_post_width});
+            max-width: 90%;
         }
     }
 }
